@@ -1,5 +1,6 @@
 #!/usr/bin/python3
 def print_last_digit(number):
+    aux = number 
     if number < 0:
         aux = -number
 
