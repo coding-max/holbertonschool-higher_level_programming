@@ -16,8 +16,8 @@ if __name__ == "__main__":
     elif argv[2] == '/':
         op = div
     else:
-        print("Unknown operator. Available operators: +, -, *, and /")
-        exit(1)
+        print("Unknown operator. Available operators: +, -, * and /")
+        sys.exit(1)
 
     result = op(int(argv[1]), int(argv[3]))
     print("{} {} {} = {}".format(int(argv[1]), argv[2], int(argv[3]), result))
