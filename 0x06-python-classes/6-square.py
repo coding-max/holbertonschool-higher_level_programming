@@ -64,6 +64,6 @@ class Square:
         for row in range(self.__size):
             for space in range(self.__position[0]):
                 print(" ", end="")
-            for column in  range(self.__size):
+            for column in range(self.__size):
                 print("#", end="")
             print("")
