@@ -13,3 +13,4 @@
 - [0x03](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x03-python-data_structures). Python - Data Structures: Lists, Tuples  
 - [0x04](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x04-python-more_data_structures). Python - More Data Structures: Set, Dictionary  
 - [0x05](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x05-python-exceptions). Python - Exceptions  
+- [0x06](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x06-python-classes). Python - Classes and Objects  
