@@ -15,12 +15,11 @@ class Square:
         else:
             self.__size = size
         "Check position"
-        if ((type(value) != tuple) or (len(value) != 2) or
-                not all((type(number) != int) for number in value) or
-                not all(number >= 0 for number in value)):
+        if ((type(position) != tuple) or (len(position) != 2) or
+                not all((type(number) != int) for number in position) or
+                not all(number >= 0 for number in position)):
             raise TypeError("position must be a tuple of 2 positive integers")
-        else:
-            self.__position = value
+        self.__position = position
 
     @property
     def size(self):
@@ -48,8 +47,7 @@ class Square:
                 not all((type(number) != int) for number in value) or
                 not all(number >= 0 for number in value)):
             raise TypeError("position must be a tuple of 2 positive integers")
-        else:
-            self.__position = value
+        self.__position = value
 
     def area(self):
         """Public instance method that returns the current square area"""
