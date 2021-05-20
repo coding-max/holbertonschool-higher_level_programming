@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Square with size"""
+"""Compare 2 squares"""
 
 
 class Square:
