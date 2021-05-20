@@ -59,9 +59,6 @@ class Square:
 
     def __str__(self):
         """Custom __str__ method to print a square"""
-        if self.__size == 0:
-            print("")
-            return
         for new_line in range(self.__position[1]):
             print("")
         for row in range(self.__size):
