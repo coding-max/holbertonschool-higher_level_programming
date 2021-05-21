@@ -14,3 +14,4 @@
 - [0x04](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x04-python-more_data_structures). Python - More Data Structures: Set, Dictionary  
 - [0x05](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x05-python-exceptions). Python - Exceptions  
 - [0x06](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x06-python-classes). Python - Classes and Objects  
+- [0x07](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x07-python-test_driven_development). Python - Test-driven development  
