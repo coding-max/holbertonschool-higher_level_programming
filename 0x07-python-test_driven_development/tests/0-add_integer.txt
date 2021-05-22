@@ -26,21 +26,31 @@
 
 	## Floating Point Special Values
 
-	>>> add_integer(float('inf'))
-	Traceback (most recent call last):
-	TypeError:
 
-	>>> add_integer(float('-inf'))
-	Traceback (most recent call last):
-	TypeError:
 
-	>>> add_integer(float('nan'))
-	Traceback (most recent call last):
-	TypeError:
+#OverflowError
 
 	>>> add_integer(1e300**2, 1e300000)
 	Traceback (most recent call last):
-	TypeError:
+	OverflowError: (34, 'Numerical result out of range')
+
+	>>> add_integer(float('-inf'))
+	Traceback (most recent call last):
+	OverflowError: cannot convert float infinity to integer
+
+	>>> add_integer(float('inf'))
+	Traceback (most recent call last):
+	OverflowError: cannot convert float infinity to integer
+
+
+
+#ValueError
+
+	>>> add_integer(float('nan'))
+	Traceback (most recent call last):
+	ValueError: cannot convert float NaN to integer
+
+
 
 #General Case
 
