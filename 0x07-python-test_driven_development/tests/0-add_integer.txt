@@ -56,6 +56,9 @@
 
 	#Cases with 2 integers as parameters.
 
+	>>> add_integer(0)
+	98
+
 	>>> add_integer(98, 0)
 	98
 
