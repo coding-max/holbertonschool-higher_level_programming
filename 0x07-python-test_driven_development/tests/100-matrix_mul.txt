@@ -8,7 +8,11 @@
     Traceback (most recent call last):
     TypeError: m_a must be a list
 
-    >>> matrix_mul("[1, 2, 3]", "School")
+    >>> matrix_mul("Holberton", [[1, 2, 3]])
+    Traceback (most recent call last):
+    TypeError: m_a must be a list
+
+    >>> matrix_mul("[[1, 2, 3]]", "School")
     Traceback (most recent call last):
     TypeError: m_a must be a list
 
