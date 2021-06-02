@@ -23,6 +23,26 @@ TypeError: float must be an integer
 Traceback (most recent call last):
 TypeError: negative_float must be an integer
 
+>>> base.integer_validator("boolean", True)
+Traceback (most recent call last):
+TypeError: boolean must be an integer
+
+>>> base.integer_validator("list", [0, 1, 2, 3])
+Traceback (most recent call last):
+TypeError: list must be an integer
+
+>>> base.integer_validator("set", set([0, 1, 2, 3]))
+Traceback (most recent call last):
+TypeError: set must be an integer
+
+>>> base.integer_validator("touple", (0, 1))
+Traceback (most recent call last):
+TypeError: touple must be an integer
+
+>>> base.integer_validator("string", "Holberton")
+Traceback (most recent call last):
+TypeError: string must be an integer
+
 >>> base.integer_validator("None", None)
 Traceback (most recent call last):
 TypeError: None must be an integer
