@@ -8,9 +8,11 @@ TESTS / 1-my_list.py
 True
 >>> l = MyList()
 >>> l.print_sorted()
+[]
 >>> print(l)
 []
 >>> l.print_sorted()
+[]
 >>> l.append(2)
 >>> l.append(7)
 >>> l.append(9)
