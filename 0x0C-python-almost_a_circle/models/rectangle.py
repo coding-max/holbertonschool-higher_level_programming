@@ -18,7 +18,8 @@ class Rectangle(Base):
     def __str__(self):
         """custom __str__ method for Rectangle"""
         return "[{}] ({}) {}/{} - {}/{}".format(self.__class__.__name__,
-                self.id, self.x, self.y, self.width, self.height)
+                                                self.id, self.x, self.y,
+                                                self.width, self.height)
 
     @property
     def width(self):
@@ -76,7 +77,6 @@ class Rectangle(Base):
             raise ValueError("y must be >= 0")
         self.__y = value
 
-
     def area(self):
         """returns the area value of the Rectangle instance"""
         return self.__width * self.__height
@@ -87,7 +87,7 @@ class Rectangle(Base):
             print()
         for row in range(self.height):
             for space in range(self.x):
-                print(" ", end="")    
+                print(" ", end="")
             for column in range(self.width):
                 print("#", end="")
             print()
@@ -120,3 +120,13 @@ class Rectangle(Base):
                     self.x = value
                 elif key == "y":
                     self.y = value
+
+    def to_dictionary(self):
+        """returns the dictionary representation of the Rectangle instance"""
+        return {
+                'id': self.id,
+                'width': self.width,
+                'height': self.height,
+                'x': self.x,
+                'y': self.y
+               }
