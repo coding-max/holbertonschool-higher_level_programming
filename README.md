@@ -24,3 +24,4 @@
 ### Databases
 
 - [0x0D](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x0D-SQL_introduction). SQL - Introduction  
+- [0x0E](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x0E-SQL_more_queries). SQL - More queries
