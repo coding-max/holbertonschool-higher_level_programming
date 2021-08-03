@@ -25,3 +25,7 @@
 
 - [0x0D](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x0D-SQL_introduction). SQL - Introduction  
 - [0x0E](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x0E-SQL_more_queries). SQL - More queries
+
+### JavaScript  
+- [0x12](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x12-javascript-warm_up). JavaScript - Warm up  
+- [0x13](https://github.com/coding-max/holbertonschool-higher_level_programming/tree/main/0x13-javascript_objects_scopes_closures). JavaScript - Objects, Scopes and Closures  
